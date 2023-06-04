@@ -27,24 +27,24 @@
     │    └── features
     │        │
     │        │
-    │        ├── data
-    │        │   ├── datasources
-    │        │   └── repositories
-    │        ├── domain
-    │        │   ├── interfaces
-    │        │   ├── entities
-    │        │   └── usecases
-    │        └── presentation
-    │            ├── pages
-    │            │   ├── showcases
-    │            │   ├── dashboard
-    │            │   ├── sign-in
-    │            │   └── sign-out
-    │            └── shared
-    │                └── components
-    │                    ├── atoms
-    │                    ├── molecules
-    │                    └── organisms
+    │        ├── feature1
+    │     　　　　　　│　  　├── data
+    │        │   │   ├── datasources
+    │        │   │   └── repositories
+    │        │   ├── domain
+    │        │   │   ├── interfaces
+    │        │   │   ├── entities
+    │        │   │   └── usecases
+    │        │   └── presentation   
+    │        │       ├── feature1.scss
+    │        │       ├── feature1.html
+    │        │       └── feature1.ts
+    │        │
+    │        └── shared
+    │            └── components
+    │                ├── atoms
+    │                ├── molecules
+    │                └── organisms
     │
     ├── mock
     │   ├── data
